@@ -1,0 +1,6 @@
+# Register the dual-channel provider without changing the profile's default
+# model. Channel B (妙手 client) is a P1 placeholder; channel A (LongCat
+# official API) is live. No OAuth flow is started by the plugin.
+- insert:
+    - id: dsh-connect-catpaw
+      name: dsh-connect-catpaw
